@@ -99,11 +99,11 @@ computer for a faster development cycle.
 
 If this is your first time running the web interface, set up the web app with:
 
-    $ mix setup
+    $ MIX_TARGET=host mix setup
 
 Start the web interface, which will be available at `http://localhost:4000`:
 
-    $ mix phx.server
+    $ MIX_TARGET=host mix phx.server
 
 # Keyboard Layout
 
